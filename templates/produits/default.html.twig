@@ -1,0 +1,16 @@
+<h6>liste des produits</h6>
+
+<table>
+<tr>
+    <th>Designation</th>
+    <th>Price</th>
+    <th>Actions</th>
+</tr>
+{% for item in produits %}
+    <tr>
+        <td>{{item.designation}}</td>
+        <td>{{item.price}}</td>
+        <td><a href="/produit/delete/{{ item.id }}">delete</a></td>
+        </tr>
+        {% endfor %}
+</table>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./scss/main.scss"],"names":[],"mappings":"AAAA;EACI,wBAAuB","file":"../css/style.css","sourcesContent":["*{\r\n    background-color:violet;\r\n}"],"sourceRoot":""}
